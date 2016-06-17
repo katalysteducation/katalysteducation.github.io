@@ -5,7 +5,7 @@ files = { PLURAL($num-files) ->
  *[other] { $num-files } matching files found.
 }
 
-posted-message = { $user } posted this message on { DATETIME($date, day: "numeric", month: "long") }
+posted-message = { $user } posted this message on { DATETIME($date, day: "numeric", month: "long") }.
 
 edit = Yesterday you edited { PLURAL($num-edit) ->
   [0] no new pages.
