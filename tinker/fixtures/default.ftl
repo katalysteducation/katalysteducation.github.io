@@ -12,10 +12,10 @@ edit = Yesterday you edited { PLURAL($num-edit) ->
   [1] one new page.
   [2] two new pages.
  *[other] { $num-edit } new pages.
-} 
+}
 
 query = The database query took { PLURAL($query-sec) ->
-  [1] one second
+  [1] one second.
  *[other] { $query-sec } seconds.
 }
 
