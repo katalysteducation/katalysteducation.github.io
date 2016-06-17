@@ -5,17 +5,17 @@ files = { PLURAL($num-files) ->
  *[other] { $num-files } matching files found.
 }
 
-posted-message = { $user } posted this message on { DATETIME($date, day: "numeric", month: "long") }
+posted-message = { $user } posted this message on { DATETIME($date, day: "numeric", month: "long") }.
 
 edit = Yesterday you edited { PLURAL($num-edit) ->
   [0] no new pages.
   [1] one new page.
   [2] two new pages.
  *[other] { $num-edit } new pages.
-} 
+}
 
 query = The database query took { PLURAL($query-sec) ->
-  [1] one second
+  [1] one second.
  *[other] { $query-sec } seconds.
 }
 
